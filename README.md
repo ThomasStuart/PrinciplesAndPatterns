@@ -8,7 +8,7 @@ arrows always point to the direction of dependency.  objDependent -> obj
 
 *The following principles make up the SOLID acronym*
 
-1.)  <a name="SRP"> Single Responsibility Principle </a>
+1.)  Single Responsibility Principle <a name="SRP"></a>
 
 2.)  Open Closed Principle 
 
