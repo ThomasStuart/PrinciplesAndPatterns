@@ -1,10 +1,14 @@
 # Programming Principles && Design Patterns 
 
+### UML review
+arrows always point to the direction of dependency.  objDependent -> obj
 
 ### Principles:
 0.)  Dont Repeat Yourself (DRY)
 
-1.)  Single Responsibility Principle 
+*The following principles make up the SOLID acronym*
+
+1.)  <a name="SRP"> Single Responsibility Principle </a>
 
 2.)  Open Closed Principle 
 
@@ -14,10 +18,10 @@
 
 5.)  Dependency Inversion Principle 
 
-### UML review
-arrows always point to the direction of dependency.  objDependent -> obj
+
  
-#### Single Responsibility Principle
+### Single Responsibility Principle
+[SRP](#SRP)
 A class should have one and only one reason to change / purpose .   Following SRP will lead to high cohesion (degree to which elements inside a class belong together).  Thus the class will be (1) more readable (2) easier to change (3) easier to test
 
 
@@ -29,4 +33,5 @@ The reason the employee class violates SRP is due to the fact that if we change 
 
 Decoupling the employee class and creating SRP classes allows for an application that can change cleaner and faster.
 
-#### Open Closed Principle
+### Open Closed Principle
+Software Modules should be open for extension and closed for modification.  The key point in this principle is to allow adding new functionality easily but without changing existing code. Often times inheritance and interfaces are used to achieve this.  
