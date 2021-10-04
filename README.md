@@ -54,12 +54,34 @@ Observer Pattern – is a software design pattern in which an object, named the 
 
 ##### general UML diagram
 
-<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/observerUML.png" alt="observer thumb" height="300" width="600"/>
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/observerUML.png" alt="observer UML" height="300" width="600"/>
 
 ##### Real world examples
 
 1.) employee management system
-<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/observerRWE1.png" alt="observer thumb" height="600" width="600"/>
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/observerRWE1.png" alt="observer RWE 1" height="600" width="800"/>
 
 2.) coffee shop
-<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/observerRWE2.png" alt="observer thumb" height="600" width="600"/>
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/observerRWE2.png" alt="observer RWE 2" height="600" width="800"/>
+
+### Builder
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/builderThumbnail.png" alt="builder thumb" height="600" width="600"/>
+Builder - is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+
+*do not mistaken this for the telescopic constructor*
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/builderTelecopic.png" alt="builder tele" height="300" width="300"/>
+
+*Important to note that you cannot build on after the object is created unless setters are included*
+
+#### builder method candidate
+
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/builderBadExample.png" alt="builder bad" height="600" width="800"/>
+
+##### Real world examples
+
+1.) Vehicle Class
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/builderRWE1.png" alt="builder RWE 1" height="300" width="300"/>
+
+### Factory
+
+### Singleton
