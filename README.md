@@ -20,10 +20,9 @@ arrows always point to the direction of dependency.  objDependent -> obj
 #### Single Responsibility Principle
 A class should only have a single reason to CHANGE.  
 
-![bad example](https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/violatesSRP.png)
 
-<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/violatesSRP.png" alt="drawing" height="200" width="200"/>
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/violatesSRP.png" alt="drawing" height="300" width="400"/>
 
-![good example](https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/violatesSRP.png)
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/validSRP.png" alt="drawing" height="300" width="400"/>
 
 Employee DAO (Data Access Object) is responsibile for the database.  
