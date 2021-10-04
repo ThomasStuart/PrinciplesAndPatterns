@@ -8,7 +8,7 @@ arrows always point to the direction of dependency.  objDependent -> obj
 
 *The following principles make up the SOLID acronym*
 
-1.)  Single Responsibility Principle <a name="SRP"></a>
+1.)  [Single Responsibility Principle](#single-responsibility-principle)
 
 2.)  Open Closed Principle 
 
@@ -21,7 +21,6 @@ arrows always point to the direction of dependency.  objDependent -> obj
 
  
 ### Single Responsibility Principle
-[SRP](#SRP)
 A class should have one and only one reason to change / purpose .   Following SRP will lead to high cohesion (degree to which elements inside a class belong together).  Thus the class will be (1) more readable (2) easier to change (3) easier to test
 
 
