@@ -24,7 +24,7 @@ arrows always point to the direction of dependency.  objDependent -> obj
 
 1.)  [Observer](#observer)
 
-2.)  [Builder](#builer)
+2.)  [Builder](#builder)
 
 3.)  [Factory](#factory)
 
@@ -69,17 +69,17 @@ Observer Pattern – is a software design pattern in which an object, named the 
 Builder - is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
 
 *do not mistaken this for the telescopic constructor*
-<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/builderTelecopic.png" alt="builder tele" height="300" width="300"/>
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/builderTelescopic.png" alt="builder tele" height="300" width="300"/>
 
 *Important to note that you cannot build on after the object is created unless setters are included*
 
 #### builder method candidate
 
-<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/builderBadExample.png" alt="builder bad" height="600" width="800"/>
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/builderBadExample.png" alt="builder bad" height="300" width="300"/>
 
 ##### Real world examples
 
-1.) Vehicle Class
+1.) Vehicle Class</br>
 <img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/builderRWE1.png" alt="builder RWE 1" height="300" width="300"/>
 
 ### Factory
