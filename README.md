@@ -18,6 +18,17 @@ arrows always point to the direction of dependency.  objDependent -> obj
 
 5.)  Dependency Inversion Principle 
 
+### Patterns:
+
+*behavioral patterns*
+
+1.)  [Observer](#observer)
+
+2.)  [Builder](#builer)
+
+3.)  [Factory](#factory)
+
+4.)  [Singleton](#singleton)
 
  
 ### Single Responsibility Principle
@@ -34,3 +45,21 @@ Decoupling the employee class and creating SRP classes allows for an application
 
 ### Open Closed Principle
 Software Modules should be open for extension and closed for modification.  The key point in this principle is to allow adding new functionality easily but without changing existing code. Often times inheritance and interfaces are used to achieve this.  
+
+
+### Observer
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/observerThumbnail.png" alt="observer thumb" height="600" width="600"/>
+
+Observer Pattern – is a software design pattern in which an object, named the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods (usually called notify).
+
+##### general UML diagram
+
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/observerUML.png" alt="observer thumb" height="300" width="600"/>
+
+##### Real world examples
+
+1.) employee management system
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/observerRWE1.png" alt="observer thumb" height="600" width="600"/>
+
+2.) coffee shop
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/observerRWE2.png" alt="observer thumb" height="600" width="600"/>
