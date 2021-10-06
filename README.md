@@ -10,17 +10,15 @@ arrows always point to the direction of dependency.  objDependent -> obj
 
 1.)  [Single Responsibility Principle](#single-responsibility-principle)
 
-2.)  Open Closed Principle 
+2.)  [Open Closed Principle](#open-closed-principle)
 
-3.)  Liskov Substitution Principle 
+3.)  [Liskov Substitution Principle](#liskov-substitution-principle) 
 
-4.)  Interface Segregation Principle 
+4.)  [Interface Segregation Principle](#interface-segregation-principle)
 
 5.)  Dependency Inversion Principle 
 
 ### Patterns:
-
-*behavioral patterns*
 
 1.)  [Observer](#observer)
 
@@ -39,12 +37,41 @@ A class should have one and only one reason to change / purpose .   Following SR
 
 The reason the employee class violates SRP is due to the fact that if we change anything about the object, multiple functions will have to be changed within the same class. 
 
-<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/validSRP.png" alt="good example" height="300" width="600"/>
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/validSRP.png" alt="good example" height="500" width="900"/>
 
 Decoupling the employee class and creating SRP classes allows for an application that can change cleaner and faster.
 
 ### Open Closed Principle
 Software Modules should be open for extension and closed for modification.  The key point in this principle is to allow adding new functionality easily but without changing existing code. Often times inheritance and interfaces are used to achieve this.  
+
+
+### Liskov Substitution Principle 
+objects of the superclass shall be replacebale with objects of its subclass without breaking the application.
+
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/liskovThumbnail.png" alt="liskov thumb" height="600" width="600"/>
+
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/liskovE1.png" alt="liskov e1" height="400" width="400"/>
+
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/liskovE2.png" alt="liskov e1" height="400" width="400"/>
+
+##### Quiz questions
+We have a class called Animals. A method called move() is defined in this Animal class. We also have 2 child classes that extend the Animal class. The child classes are, Boat, and Car. Since both Boat and Car have the capability of moving, the liskov substitution principle is not being violated. False
+
+We have a class called ElectronicDevice. There is one method defined in this class called turnOffDevice(). We also have 2 sub-classes that extend the ElectronicDevice class. These child classes are Television, and Laptop. So far there is no apparent violation of the Liskov Substitution Principle.  True.
+
+
+### Interface Segregation Principle
+states that no client should be forced to depend on methods it does not use.
+
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/IspThumbnail.png" alt="isp thumb" height="600" width="600"/>
+
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/IspGood.png" alt="isp e1" height="900" width="500"/>
+
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/IspBad.png" alt="isp e1" height="900" width="500"/>
+
+
+### Dependency Inversion Principle 
+High Level modules should not depend on Lowlevel modules
 
 
 ### Observer
@@ -86,14 +113,18 @@ Builder - is a creational design pattern that lets you construct complex objects
 
 Factory (creational design pattern) – useful when we want to use another class to crate objects for us.  Client does not need to know the details and delegates the creation to another class.</br></br>
 
+##### factory structure 
+
 <img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/factoryUML.png" alt="factory UML" height="600" width="900"/>
 
 ##### Real world examples
 
 1.) Vehicle Engine factory </br>
-<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/factoryRWE1.png" alt="factory RWE 1" height="400" width="500"/>
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/factoryRWE1.png" alt="factory RWE 1" height="400" width="800"/>
 
 ### Singleton
 Singleton - is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.  Don’t want the constructor to be public as we want to restrict the client from creating multiple objects. </br></br>
+
+##### singleton structure 
 
 <img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/singletonStructure.png" alt="singleton RWE 1" height="400" width="500"/>
