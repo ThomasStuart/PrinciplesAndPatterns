@@ -24,8 +24,6 @@
 
 4.)  [Singleton](#singleton)
 
-### quick UML review
-arrows always point to the direction of dependency.  objDependent -> obj
 
 ### Single Responsibility Principle
 **A class should have one and only one reason to change / purpose.**   Following SRP will lead to high cohesion (degree to which elements inside a class belong together).  Thus the class will be (1) more readable (2) easier to change (3) easier to test
@@ -35,7 +33,7 @@ arrows always point to the direction of dependency.  objDependent -> obj
 
 The reason the employee class violates SRP is due to the fact that if we change anything about the object, multiple functions will have to be changed within the same class. 
 
-<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/validSRP.png" alt="good example" height="400" width="900"/>
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/validSRP.png" alt="good example" height="400" width="800"/>
 
 Decoupling the employee class and creating SRP classes allows for an application that can change cleaner and faster.
 
@@ -48,16 +46,16 @@ Decoupling the employee class and creating SRP classes allows for an application
 ### Liskov Substitution Principle 
 **Objects of the superclass shall be replacebale with objects of its subclass without breaking the application.**
 
-<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/liskovThumbnail.png" alt="liskov thumb" height="600" width="900"/>
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/liskovThumbnail.png" alt="liskov thumb" height="600" width="600"/>
 
 ##### Real world examples
 
 1.) Birds and extending with fly feature
 
-<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/liskovE1.png" alt="liskov e1" height="400" width="800"/>
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/liskovE1.png" alt="liskov e1" height="700" width="800"/>
 
 2.) Shapes ( Square and Rect)
-<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/liskovE2.png" alt="liskov e2" height="400" width="800"/>
+<img src="https://github.com/ThomasStuart/PrinciplesAndPatterns/blob/master/images/liskovE2.png" alt="liskov e2" height="700" width="800"/>
 
 ##### Quiz questions
 We have a class called Animals. A method called move() is defined in this Animal class. We also have 2 child classes that extend the Animal class. The child classes are, Boat, and Car. Since both Boat and Car have the capability of moving, the liskov substitution principle is not being violated. False
